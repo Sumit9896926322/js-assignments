@@ -137,9 +137,9 @@
         
         I would then add a click event to the summonModal and closeModal elements. When summonModal is clicked, we will remove the "hide" class from the modal variable. When closeModal is clicked, we will add the "hide" class back to the modal variable.
         */
-      const modal = document.getElementById("modal");
-      const summonModal = document.getElementById("summonModal");
-      const closeModal = document.getElementById("closeModal");
+      var modal = document.getElementById("modal");
+      var summonModal = document.getElementById("summonModal");
+      var closeModal = document.getElementById("closeModal");
 
       summonModal.addEventListener("click", function () {
         modal.classList.remove("hide");
